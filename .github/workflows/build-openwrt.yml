@@ -17,8 +17,8 @@ on:
       - master
     paths:
       - 'x64.config'
-  schedule:
-    - cron: 5 23 * * *
+#   schedule:
+#     - cron: 5 23 * * *
   watch:
     types: started
 

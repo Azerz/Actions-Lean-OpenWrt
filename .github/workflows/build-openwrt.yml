@@ -16,11 +16,11 @@ on:
     branches:
       - master
     paths:
-      - 'x64.config'
+      - 'x86.config'
 #   schedule:
 #     - cron: 5 23 * * *
-  watch:
-    types: started
+#   watch:
+#     types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
